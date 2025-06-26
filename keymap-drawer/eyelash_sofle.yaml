@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '=', s: +}
+  - Sft+$$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -39,8 +39,8 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Ctl+$$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -52,19 +52,19 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '[', s: '{'}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - Alt+$$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - layer1
+  - COPY
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - LANG HANGEUL
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -117,12 +117,12 @@ layers:
   - Ins
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
